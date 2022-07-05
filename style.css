@@ -1,3 +1,40 @@
 #title {
     color:black;
 }
+
+#color-palette {
+    display: inline block;
+    padding: .3em;
+    height: 50px;
+    width: 300px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;  
+    margin-bottom: 30px;
+}
+
+#pixel-board {
+display: table;
+border: black, solid, 5px;
+border-spacing: 1px; 
+background-color: black; 
+}
+
+.row {
+    display: table-row;
+}
+
+.pixel {
+    width: 40px;
+    height: 40px;
+    border: solid, black, 1px;
+    background-color: white;
+    display: table-cell;
+}
+
+/* Cada pixel do quadro deve possuir 40px de largura e 40px de altura e uma borda preta sólida de 1px de espessura */
+/* O quadro de "pixels" deve possuir altura e comprimento de 5 elementos;
+
+Os elementos do quadro devem possuir 40 px de altura e 40 px de largura, incluindo o seu conteúdo e excluindo a borda preta;
+
+Os elementos do quadro devem possuir borda preta sólida de 1px de espessura. */
