@@ -33,12 +33,13 @@ for (let index = 0; index < pixelBoard.length; index += 1) {
 }
 
 
-const clearBoard = document.querySelector('#clear-board');
+const clearBoard = document.getElementById('clear-board');
 clearBoard.addEventListener('click', despigmentar); 
 
 function despigmentar(events) {
+const pixelBoard = document.querySelectorAll('.pixel');
 for (let index = 0; index < pixelBoard.length; index += 1) {
-       events.style.backgroundColor = 'white';    
+       pixelBoard[index].style.backgroundColor = 'white';    
     }
 }
 
