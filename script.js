@@ -42,4 +42,3 @@ for (let index = 0; index < pixelBoard.length; index += 1) {
        pixelBoard[index].style.backgroundColor = 'white';    
     }
 }
-
